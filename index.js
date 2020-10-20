@@ -1,5 +1,5 @@
 module.exports = {
-  register: (ignored, path) {
+  register: (ignored, path) => {
     console.log(ignored, path)
   }
 }
